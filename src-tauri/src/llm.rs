@@ -50,7 +50,7 @@ fn load_config(model_dir: &Path) -> Result<candle_transformers::models::llama::C
 }
 
 pub fn load(model_dir: &Path) -> Result<LlmEngine, LlmError> {
-    let device = Device::new_cuda(0).map_err(|e| LlmError(format!("CUDA device failed: {}", e)))?;
+    let device = Device::Cpu;
     let dtype = DType::F16;
 
     let config = load_config(model_dir)?;

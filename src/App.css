@@ -96,3 +96,40 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.settings-label {
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.settings-input {
+  width: 5rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #1a1a2e;
+  color: #eee;
+  font-size: 0.875rem;
+}
+
+.settings-input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.settings-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.settings-input-wide {
+  width: 12rem;
+  min-width: 8rem;
+}

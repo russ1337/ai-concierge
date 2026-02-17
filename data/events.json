@@ -1,17 +1,17 @@
 [
   {
-    "title": "Team standup",
-    "date": "2025-02-17",
-    "description": "Daily 15min standup with the engineering team."
+    "title": "FDM Meeting",
+    "date": "2/16/2026",
+    "description": "The FDM meeting where dealers all meet."
   },
   {
-    "title": "Product launch",
-    "date": "2025-03-01",
+    "title": "NADA Meeting",
+    "date": "3/1/2026",
     "description": "Launch event for the new product line at the main office."
   },
   {
-    "title": "All-hands meeting",
-    "date": "2025-02-20",
+    "title": "Top Volume Meeting",
+    "date": "3/18/2026",
     "description": "Monthly all-hands to share company updates and Q&A."
   }
 ]
